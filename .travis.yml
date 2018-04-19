@@ -1,0 +1,5 @@
+language: swift
+osx_image: xcode9.2
+xcode_project: Skynet.xcodeproj
+xcode_scheme: Skynet
+xcode_sdk: iphonesimulator11.2
