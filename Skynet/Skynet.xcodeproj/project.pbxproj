@@ -14,6 +14,7 @@
 		8CF5113620892DEF008E68F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF5113420892DEF008E68F8 /* LaunchScreen.storyboard */; };
 		8CF5113E20894100008E68F8 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF5113D20894100008E68F8 /* Coordinator.swift */; };
 		8CF51142208942F4008E68F8 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF51141208942F4008E68F8 /* Storyboard.swift */; };
+		8CF5114620894CBB008E68F8 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF5114520894CBB008E68F8 /* AppCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8CF5113720892DEF008E68F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CF5113D20894100008E68F8 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		8CF51141208942F4008E68F8 /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
+		8CF5114520894CBB008E68F8 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				8CF5113720892DEF008E68F8 /* Info.plist */,
 				8CF5113D20894100008E68F8 /* Coordinator.swift */,
 				8CF51141208942F4008E68F8 /* Storyboard.swift */,
+				8CF5114520894CBB008E68F8 /* AppCoordinator.swift */,
 			);
 			path = Skynet;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			files = (
 				8CF5112E20892DEF008E68F8 /* ViewController.swift in Sources */,
 				8CF51142208942F4008E68F8 /* Storyboard.swift in Sources */,
+				8CF5114620894CBB008E68F8 /* AppCoordinator.swift in Sources */,
 				8CF5112C20892DEF008E68F8 /* AppDelegate.swift in Sources */,
 				8CF5113E20894100008E68F8 /* Coordinator.swift in Sources */,
 			);
