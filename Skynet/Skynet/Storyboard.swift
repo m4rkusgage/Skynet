@@ -12,15 +12,15 @@ enum StoryboardName: String {
     case main = "Main"
 }
 
-protocol Storyboard {
-    static func instantiate(storyboardName: String) -> Self
+protocol Storyboarded {
+    static func instantiateFrom(storyboard: String) -> UIViewController
 }
 
-extension Storyboard where Self: UIViewController {
-    static func instantiate(storyboardName: String) -> Self {
+extension UIViewController: Storyboarded {
+    static func instantiateFrom(storyboard: String) -> UIViewController {
         let fullName = NSStringFromClass(self)
         let className = fullName.components(separatedBy: ".")[1]
-        let storyboard = UIStoryboard(name: storyboardName, bundle: Bundle.main)
-        return storyboard.instantiateViewController(withIdentifier: className) as! Self
+        let sb = UIStoryboard(name: storyboard, bundle: Bundle.main)
+        return sb.instantiateViewController(withIdentifier: className)
     }
 }
