@@ -19,8 +19,8 @@ class AppCoordinator: Coordinator {
     
     func start() {
         let viewController = ViewController.instantiate()
-        _ = ViewController.instantiateFrom(.main)
-        _ = ViewController.instantiateFrom(.tutorial)
+        _ = ViewController.instantiate(storyboard: .main)
+        _ = ViewController.instantiate(storyboard: .tutorial)
         self.navigationController.pushViewController(viewController, animated: true)
     }
 }

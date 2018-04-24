@@ -27,15 +27,7 @@ extension StoryboardBased where Self: UIViewController {
         return String(describing: self)
     }
     
-    static func instantiate() -> Self {
-        let storyboard = UIStoryboard(name: Storyboard.main.name, bundle: nil)
-        guard let viewController = storyboard.instantiateViewController(withIdentifier: Self.storyboardIdentifier) as? Self else {
-            fatalError("Could not instantiate initial storyboard with name: \(Self.storyboardIdentifier)")
-        }
-        return viewController
-    }
-    
-    static func instantiateFrom(_ storyboard: Storyboard) -> Self {
+    static func instantiate(storyboard: Storyboard = Storyboard.main) -> Self {
         let storyboard = UIStoryboard(name: storyboard.name, bundle: nil)
         guard let viewController = storyboard.instantiateViewController(withIdentifier: Self.storyboardIdentifier) as? Self else {
             fatalError("Could not instantiate initial storyboard with name: \(Self.storyboardIdentifier)")
