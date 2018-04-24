@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C2B8D36208FC0A900E7A82C /* StoryboardBased.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B8D35208FC0A900E7A82C /* StoryboardBased.swift */; };
 		8CF5112C20892DEF008E68F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF5112B20892DEF008E68F8 /* AppDelegate.swift */; };
 		8CF5112E20892DEF008E68F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF5112D20892DEF008E68F8 /* ViewController.swift */; };
 		8CF5113120892DEF008E68F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF5112F20892DEF008E68F8 /* Main.storyboard */; };
 		8CF5113320892DEF008E68F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CF5113220892DEF008E68F8 /* Assets.xcassets */; };
 		8CF5113620892DEF008E68F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF5113420892DEF008E68F8 /* LaunchScreen.storyboard */; };
 		8CF5113E20894100008E68F8 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF5113D20894100008E68F8 /* Coordinator.swift */; };
-		8CF51142208942F4008E68F8 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF51141208942F4008E68F8 /* Storyboard.swift */; };
 		8CF5114620894CBB008E68F8 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF5114520894CBB008E68F8 /* AppCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C2B8D35208FC0A900E7A82C /* StoryboardBased.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardBased.swift; sourceTree = "<group>"; };
 		8CF5112820892DEF008E68F8 /* Skynet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skynet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF5112B20892DEF008E68F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CF5112D20892DEF008E68F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,7 +27,6 @@
 		8CF5113520892DEF008E68F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CF5113720892DEF008E68F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CF5113D20894100008E68F8 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
-		8CF51141208942F4008E68F8 /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
 		8CF5114520894CBB008E68F8 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,8 +67,8 @@
 				8CF5113420892DEF008E68F8 /* LaunchScreen.storyboard */,
 				8CF5113720892DEF008E68F8 /* Info.plist */,
 				8CF5113D20894100008E68F8 /* Coordinator.swift */,
-				8CF51141208942F4008E68F8 /* Storyboard.swift */,
 				8CF5114520894CBB008E68F8 /* AppCoordinator.swift */,
+				8C2B8D35208FC0A900E7A82C /* StoryboardBased.swift */,
 			);
 			path = Skynet;
 			sourceTree = "<group>";
@@ -146,9 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CF5112E20892DEF008E68F8 /* ViewController.swift in Sources */,
-				8CF51142208942F4008E68F8 /* Storyboard.swift in Sources */,
 				8CF5114620894CBB008E68F8 /* AppCoordinator.swift in Sources */,
 				8CF5112C20892DEF008E68F8 /* AppDelegate.swift in Sources */,
+				8C2B8D36208FC0A900E7A82C /* StoryboardBased.swift in Sources */,
 				8CF5113E20894100008E68F8 /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
